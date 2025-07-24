@@ -59,10 +59,10 @@ document.querySelectorAll('.skill-item, .timeline-item, .cert-card, .project-car
 });
 
 // Contact form handling
-const contactForm = document.getElementById('contactForm');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
+//const contactForm = document.getElementById('contactForm');
+//if (contactForm) {
+  //  contactForm.addEventListener('submit', function(e) {
+    //    e.preventDefault();
         
         // Get form data
         const formData = new FormData(this);
